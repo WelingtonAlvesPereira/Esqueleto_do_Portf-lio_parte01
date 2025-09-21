@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1400px) {
+  #image-fundo {
+    width: 350px;
+    height: 350px;
+    background-image: url("../img/Programador\ Animado\ em\ Ação.png");
+    background-position: center;
+    background-size: 600px;
+    background-repeat: no-repeat;
+  }
+  #projetos {
+    max-width: 1200px;
+    height: 80vh;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #image-fundo {
+    width: 350px;
+    display: none;
+    height: 350px;
+    background-image: url("../img/Programador\ Animado\ em\ Ação.png");
+    background-position: center;
+    background-size: 600px;
+    background-repeat: no-repeat;
+  }
+  #projetos {
+    max-width: 1200px;
+    height: 80vh;
+    margin: auto;
+  }
+  #home {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #title {
+    font-size: 55px;
+    font-family: "Imperial Script", cursive;
+    line-height: 80px;
+  }
+}

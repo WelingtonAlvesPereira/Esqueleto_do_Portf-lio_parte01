@@ -1,0 +1,21 @@
+#home {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#title {
+  font-size: 95px;
+  font-family: "Imperial Script", cursive;
+  line-height: 80px;
+}
+
+#coneinerTitle {
+  width: 600px;
+}
+
+#coneinerTitle p {
+  margin-top: 15px;
+  line-height: 26px;
+}
