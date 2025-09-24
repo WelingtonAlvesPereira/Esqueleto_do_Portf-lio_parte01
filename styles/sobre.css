@@ -1,5 +1,5 @@
 #sobre {
-  height: 60vh;
+  height: 56vh;
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.356);
 }
@@ -16,4 +16,10 @@
 #sobre div:nth-child(2) {
   width: 500px;
   flex-direction: column;
+}
+
+#sobre p {
+  text-align: justify;
+  line-height: 22px;
+  word-spacing: -0.2ch;
 }

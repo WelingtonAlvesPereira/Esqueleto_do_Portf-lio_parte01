@@ -1,10 +1,26 @@
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
   #image-fundo {
     width: 350px;
     height: 350px;
     background-image: url("../img/Programador\ Animado\ em\ Ação.png");
     background-position: center;
     background-size: 600px;
+    background-repeat: no-repeat;
+  }
+  #projetos {
+    max-width: 1200px;
+    height: 80vh;
+    margin: auto;
+  }
+} */
+
+@media only screen and (max-width: 1600px) {
+  #image-fundo {
+    width: 300px;
+    height: 300px;
+    background-image: url("../img/Programador\ Animado\ em\ Ação.png");
+    background-position: center;
+    background-size: 400px;
     background-repeat: no-repeat;
   }
   #projetos {
